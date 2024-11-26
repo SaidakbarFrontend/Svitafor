@@ -1,0 +1,51 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.traffic-light{
+  background-color: #333;
+  width: 100px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.light{
+  width: 70px;
+  height: 70px;
+  background-color: #555;
+  border-radius: 50%;
+  margin: 10px;
+  transition: all 0.4s ease;
+}
+
+.line{
+  width: 50px;
+  height: 200px;
+  background-color: #333;
+}
+
+.red.active{
+  background-color: red;
+}
+
+.yellow.active{
+  background-color: yellow;
+}
+
+.green.active{
+  background-color: green;
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#d50a0a, #130202);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
